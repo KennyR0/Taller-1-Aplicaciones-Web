@@ -1,0 +1,68 @@
+/* Estilos globales */
+body {
+    /* Se elimina el margen por defecto del navegador para controlar el layout */
+    margin: 0;
+    /* Tipografia legible y disponible en Windows/macOS */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Fondo suave para separar visualmente la tarjeta principal */
+    background-color: #f4f7f6;
+    color: #333;
+    /* Mejora la legibilidad del texto en parrafos largos */
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    /* Ancho porcentual para adaptarse a distintas pantallas */
+    width: 80%;
+    /* Centrado horizontal y separacion superior/inferior */
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    /* Sombra sutil para dar efecto de tarjeta */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Botón */
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    /* Espaciado interno para mejorar area de clic */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Retroalimentacion visual al pasar el mouse sobre el boton */
+button:hover {
+    background: #2980b9;
+}
+
+/* Flexbox para habilidades */
+
+.habilidades {
+    /* Distribuye los elementos en fila con separacion uniforme */
+    display: flex;
+    justify-content: space-around;
+    /* Elimina estilos por defecto de lista */
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Estilo para cada habilidad individual */
+.habilidades li {
+    background: #ecf0f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
